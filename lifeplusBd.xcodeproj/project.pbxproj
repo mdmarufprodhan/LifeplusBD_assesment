@@ -13,6 +13,9 @@
 		19E5FAA525FA2C6000B2E7FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19E5FAA325FA2C6000B2E7FB /* Main.storyboard */; };
 		19E5FAA725FA2C6100B2E7FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19E5FAA625FA2C6100B2E7FB /* Assets.xcassets */; };
 		19E5FAAA25FA2C6100B2E7FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19E5FAA825FA2C6100B2E7FB /* LaunchScreen.storyboard */; };
+		19E5FAB525FA3BAE00B2E7FB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E5FAB425FA3BAE00B2E7FB /* RegisterViewController.swift */; };
+		19E5FAB825FA3BCB00B2E7FB /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E5FAB725FA3BCB00B2E7FB /* DashBoardViewController.swift */; };
+		19E5FABB25FA3BEB00B2E7FB /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E5FABA25FA3BEB00B2E7FB /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		19E5FAA625FA2C6100B2E7FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19E5FAA925FA2C6100B2E7FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19E5FAAB25FA2C6100B2E7FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19E5FAB425FA3BAE00B2E7FB /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		19E5FAB725FA3BCB00B2E7FB /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		19E5FABA25FA3BEB00B2E7FB /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,42 @@
 		19E5FA9C25FA2C6000B2E7FB /* lifeplusBd */ = {
 			isa = PBXGroup;
 			children = (
+				19E5FABD25FA3C1600B2E7FB /* Model */,
+				19E5FABE25FA3C3200B2E7FB /* View */,
+				19E5FABF25FA3C3F00B2E7FB /* Controller */,
 				19E5FA9D25FA2C6000B2E7FB /* AppDelegate.swift */,
 				19E5FA9F25FA2C6000B2E7FB /* SceneDelegate.swift */,
-				19E5FAA125FA2C6000B2E7FB /* LoginViewController.swift */,
-				19E5FAA325FA2C6000B2E7FB /* Main.storyboard */,
 				19E5FAA625FA2C6100B2E7FB /* Assets.xcassets */,
 				19E5FAA825FA2C6100B2E7FB /* LaunchScreen.storyboard */,
 				19E5FAAB25FA2C6100B2E7FB /* Info.plist */,
 			);
 			path = lifeplusBd;
+			sourceTree = "<group>";
+		};
+		19E5FABD25FA3C1600B2E7FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		19E5FABE25FA3C3200B2E7FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				19E5FAA325FA2C6000B2E7FB /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		19E5FABF25FA3C3F00B2E7FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				19E5FAB425FA3BAE00B2E7FB /* RegisterViewController.swift */,
+				19E5FAA125FA2C6000B2E7FB /* LoginViewController.swift */,
+				19E5FAB725FA3BCB00B2E7FB /* DashBoardViewController.swift */,
+				19E5FABA25FA3BEB00B2E7FB /* DetailsViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +170,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E5FAB825FA3BCB00B2E7FB /* DashBoardViewController.swift in Sources */,
 				19E5FAA225FA2C6000B2E7FB /* LoginViewController.swift in Sources */,
 				19E5FA9E25FA2C6000B2E7FB /* AppDelegate.swift in Sources */,
 				19E5FAA025FA2C6000B2E7FB /* SceneDelegate.swift in Sources */,
+				19E5FAB525FA3BAE00B2E7FB /* RegisterViewController.swift in Sources */,
+				19E5FABB25FA3BEB00B2E7FB /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
